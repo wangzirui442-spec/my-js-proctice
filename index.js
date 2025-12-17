@@ -21,3 +21,22 @@ let part1 = 'Web3';
 let part2 = 'is very cool';
 let part3 = part1.cancat(' ', part2);
 console.log(part3);
+const  projectTittle = "Passion";
+let myName = "Rui";
+let lastResult = "projectTittle" + "myName"
+console.log(lastReslut)
+console.log(
+    
+    "\t--- Project Summary ---\n" +
+    
+    "Project Title: " + projectTittle + "\n" +
+    "Student Name: " + myName + "\n" +
+    
+    "Rui's Motto: \"Knowledge is Power\"\n" + 
+    
+
+    "Config Path: C:\\User\\" + myName + "\\config.ini\n" + 
+    
+    
+    "Type of  myName: " + typeof myName
+);

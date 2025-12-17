@@ -19,12 +19,12 @@ sentence += ',I leaned programming';
 console.log(sentence);
 let part1 = 'Web3';
 let part2 = 'is very cool';
-let part3 = part1.cancat(' ', part2);
+let part3 = part1.concat(' ', part2);
 console.log(part3);
 const  projectTittle = "Passion";
 let myName = "Rui";
 let lastResult = "projectTittle" + "myName"
-console.log(lastReslut)
+console.log(lastResult)
 console.log(
     
     "\t--- Project Summary ---\n" +

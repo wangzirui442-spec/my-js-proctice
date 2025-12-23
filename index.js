@@ -40,3 +40,10 @@ console.log(
     
     "Type of  myName: " + typeof myName
 );
+
+const thePrice = 20;
+const count = 100;
+console.log(`睿哥今天卖出了 ${count}只鸡，总共赚了$${thePrice*count}`)
+//test
+
+

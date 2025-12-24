@@ -47,3 +47,18 @@ console.log(`睿哥今天卖出了 ${count}只鸡，总共赚了$${thePrice*coun
 //test
 
 
+// 今天的练习：定位我的野心
+let goal = "I want to earn 8000 dollars monthly!";
+let position = goal.indexOf("8000");
+
+if (position !== -1) {
+    console.log("找到目标了！位置在第 " + position + " 位。");
+} else {
+    console.log("还没找到目标，继续努力！");
+}
+
+console.log(goal.indexOf("i")); 
+let fruit = "Apple";
+let check = fruit.indexOf('Banana');
+if (check !== -1) {console.log("找到了！他在位置：" + check)}
+else{console.log("没找到，返回值是: " + check)};

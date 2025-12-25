@@ -62,3 +62,4 @@ let fruit = "Apple";
 let check = fruit.indexOf('Banana');
 if (check !== -1) {console.log("找到了！他在位置：" + check)}
 else{console.log("没找到，返回值是: " + check)};
+//我草

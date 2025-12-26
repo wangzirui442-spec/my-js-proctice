@@ -63,3 +63,18 @@ let check = fruit.indexOf('Banana');
 if (check !== -1) {console.log("找到了！他在位置：" + check)}
 else{console.log("没找到，返回值是: " + check)};
 //我草
+let careerDream = prompt('What are your current career dream?', 'Web3 Developer');
+let salaryGoal = prompt('What is your target monthly salary?', '8000 Dallars')
+let position2 = careerDream.indexOf('Developer');
+if (position2 !== -1) {
+console.log('梦想很专业! 位置在: position2');}
+else {
+console.log ('换个更有挑战的梦想试试');}
+console.log(
+
+`我的目标是成为${careerDream},
+     赚取${salaryGoal}。
+                          要成为没有梦想就会死的王路飞！`)
+
+
+

@@ -76,13 +76,16 @@ console.log(
      赚取${salaryGoal}。
                           要成为没有梦想就会死的王路飞！`)
 
-//test
-
-//
-//
-//
-//
-//
-//
-//
-
+//charCodeAt practice
+console.log ('A'.charCodeAt(0));
+console.log ("a".charCodeAt(0));
+console.log ("5".charCodeAt(0));
+console.log ("!".charCodeAt(0));
+//fromCharCode practice 
+console.log (String.fromCharCode(77));
+console.log (String.fromCharCode(99));
+console.log (String.fromCharCode(52));
+//又练一拳
+let ch = "B";let code = ch.charCodeAt(0);
+console.log(code + 1);
+console.log(String.fromCharCode(code - 1));

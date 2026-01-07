@@ -89,3 +89,10 @@ console.log (String.fromCharCode(52));
 let ch = "B";let code = ch.charCodeAt(0);
 console.log(code + 1);
 console.log(String.fromCharCode(code - 1));
+//Includes() practice
+let $sentence = "Web3 is the future! ";
+console.log(sentence.includes("Web3"));
+console.log(sentence.includes("web3"));
+console.log(sentence.includes("Web3", 5));
+console.log(sentence.includes("Java"));
+

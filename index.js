@@ -96,3 +96,34 @@ console.log(sentence.includes("web3"));
 console.log(sentence.includes("Web3", 5));
 console.log(sentence.includes("Java"));
 
+//
+let str = "JavaScript";
+let a = str.slice(0, 4);
+let b = str.slice(4, 10);
+console.log(a);
+console.log(b);
+let test = "Hello World"
+let theResult = test.slice(7);
+console.log(theResult);
+let msg = "Learning JavaScript";
+let lastPart = msg.slice(-10);
+let middle = msg.slice(9, -1);
+let sentence1 = "I love JavaScript and JavaScript loves me";
+let r1 = sentence1.includes('JavaScript');
+let r2 = sentence1.includes("JavaScript", 10);
+let r3 = sentence1.includes("JavaScript", 20);
+console.log(r1);
+console.log(r2);
+console.log(r3);
+let email = "user123@gmail.com";
+//提取用户名（@前面）
+let username = email.slice(0, email.indexOf("@"));
+//判断是不是 gamil 邮箱
+let isGamail = email.includes("gmail");
+console.log(username);
+console.log(isGamail);
+//
+let fileName = "photo.profile.png";
+//提取文件后缀名
+let ext = fileName.slice(fileName.lastIndexOf(".") + 1);
+console.log(ext);

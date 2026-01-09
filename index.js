@@ -127,3 +127,4 @@ let fileName = "photo.profile.png";
 //提取文件后缀名
 let ext = fileName.slice(fileName.lastIndexOf(".") + 1);
 console.log(ext);
+//

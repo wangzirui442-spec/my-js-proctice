@@ -128,3 +128,4 @@ let fileName = "photo.profile.png";
 let ext = fileName.slice(fileName.lastIndexOf(".") + 1);
 console.log(ext);
 //
+//

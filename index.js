@@ -128,4 +128,13 @@ let fileName = "photo.profile.png";
 let ext = fileName.slice(fileName.lastIndexOf(".") + 1);
 console.log(ext);
 //
-//
+//大小写转换练习
+let userInput = "JavaScript";
+if(userInput.toLowerCase()=== "javascript") {
+    console.log("正确输入");
+}
+let title = "web3 is cool";
+console.log(title.toUpperCase());
+let answer = "Yes";
+if(answer.toLowerCase() === "yes") console.log(答案正确);
+

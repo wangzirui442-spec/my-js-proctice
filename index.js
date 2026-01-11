@@ -137,4 +137,13 @@ let title = "web3 is cool";
 console.log(title.toUpperCase());
 let answer = "Yes";
 if(answer.toLowerCase() === "yes") console.log(答案正确);
-
+let a1 = "   JavaScript   ";
+let a2 = a1.trim();
+console.log(a2);
+let B = "  Hello Web3";
+let B1 = B.trimStart();
+console.log(B1);
+let C = "   Yes   ";
+if(C.trim().toLowerCase() === "no")
+     {console.log("拒绝");
+}

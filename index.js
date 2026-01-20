@@ -147,3 +147,4 @@ let C = "   Yes   ";
 if(C.trim().toLowerCase() === "no")
      {console.log("拒绝");
 }
+//

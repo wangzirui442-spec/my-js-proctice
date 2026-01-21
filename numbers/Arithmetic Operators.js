@@ -33,5 +33,5 @@ console.log(5**2);
 let result2 = 10 + 5 * 2 - 8 / 4 ;
 console.log(result2);
 
-//////
+////////
 
